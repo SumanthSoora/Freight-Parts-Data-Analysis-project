@@ -1,6 +1,6 @@
 # 🏭 Freight Manufacturing Parts Project
 
-A full end-to-end data analytics project built around a **freight rail manufacturing** operation. The goal is simple — take raw messy data, clean it properly using Python, and set it up for Power BI dashboards and DAX analysis.
+A full end-to-end data analytics project built around a **freight rail manufacturing** operation. The goal is simple — take raw messy data, clean it properly using Python, and build Power BI dashboards with deep DAX analysis.
 
 This project covers the full **ETL pipeline**: Extract → Transform → Load.
 
@@ -8,7 +8,7 @@ This project covers the full **ETL pipeline**: Extract → Transform → Load.
 
 ## 📦 The Business Story
 
-We are a freight rail manufacturer . Here's how our operation flows:
+We are a freight rail manufacturer. Here's how our operation flows:
 
 ```
 Suppliers
@@ -31,24 +31,29 @@ Finished Products  (10 product types)
 ```
 Freight Manufacturing Parts Project/
 ├── data/
-│   ├── raw/                        ← original source files (never modified)
-│   │   ├── suppliers.csv
-│   │   ├── parts.csv
+│   ├── raw/                                      ← original source files (never modified)
 │   │   ├── finished_products.csv
-│   │   ├── orders.csv
 │   │   ├── inventory.csv
+│   │   ├── orders.csv
+│   │   ├── parts.csv
+│   │   ├── production_components.csv
 │   │   ├── production.csv
-│   │   └── production_components.csv
-│   └── cleaned/                    ← Python-processed, analysis-ready files
-│       ├── suppliers_clean.csv
-│       ├── parts_clean.csv
+│   │   └── suppliers.csv
+│   └── cleaned/                                  ← Python-processed, analysis-ready files
 │       ├── finished_products_clean.csv
-│       ├── orders_clean.csv
 │       ├── inventory_clean.csv
+│       ├── orders_clean.csv
+│       ├── parts_clean.csv
 │       ├── production_clean.csv
-│       └── production_components_clean.csv
+│       ├── production_components_clean.csv
+│       └── suppliers_clean.csv
+├── Power bi Files/
+│   ├── Frieght Parts Analysis Power Bi Dashboard Screen Shots/
+│   │   └── Procurement Overview Dashboard.png
+│   └── Frieght Dasboard.pbix                     ← Power BI report file
 ├── python/
-│   └── clean_data.py               ← full ETL cleaning pipeline
+│   ├── clean_data.py                             ← full ETL cleaning pipelin
+├── .gitignore
 └── README.md
 ```
 
@@ -86,8 +91,6 @@ python clean_data.py
 
 ### Transform
 
-Here's every key operation performed and why:
-
 | Operation                       | Function Used                             | Why                                                                                                                 |
 | ------------------------------- | ----------------------------------------- | ------------------------------------------------------------------------------------------------------------------- |
 | Standardize column names        | `str.strip().str.lower().str.replace()`   | Spaces and caps in column names break Power BI silently                                                             |
@@ -108,25 +111,48 @@ Here's every key operation performed and why:
 
 - All cleaned tables exported to [`data/cleaned/`](data/cleaned/) using `to_csv(index=False)`
 - Zero nulls across all 7 tables after cleaning
-- Column count increased from raw (added derived columns per table)
+
+---
+
+## 🧮 DAX Measures Built
+
+| Concept           | Measure                 | Description                                  |
+| ----------------- | ----------------------- | -------------------------------------------- |
+| Basic Aggregation | `Total Orders`          | COUNT of all order records                   |
+| Basic Aggregation | `Total Order Value`     | SUM of all order values                      |
+| Basic Aggregation | `Total Parts Ordered`   | SUM of qty ordered                           |
+| CALCULATE         | `Delivered Orders`      | Orders filtered to Delivered status only     |
+| DIVIDE            | `Delivery Rate %`       | Safe division of delivered vs total orders   |
+| DIVIDE            | `Avg Fill Rate %`       | qty received / qty ordered                   |
+| TOTALYTD          | `Orders YTD`            | Cumulative orders from Jan 1 of current year |
+| DATEADD           | `Orders Previous Month` | Orders shifted back 1 month                  |
+| DATEADD           | `Orders MoM Change %`   | Month over month % change in orders          |
+| SUMX              | `Total Component Cost`  | Row-by-row qty × unit_cost aggregation       |
+| VAR / RETURN      | `Order Value Analysis`  | Multi-variable measure showing total and avg |
+| RANKX             | `Parts Order Rank`      | Ranks parts by total orders descending       |
+| RELATED           | `Part Category`         | Pulls category from parts table into orders  |
+
+---
+
+## 📸 Dashboard Preview
+
+### Procurement Overview
+
+![Procurement Overview](Power%20bi%20Files/Frieght%20Parts%20Analysis%20Power%20Bi%20Dashboard%20Screen%20Shots/Procurement%20Overview%20Dashboard.png)
+
+_More dashboard pages coming soon — Inventory Analysis, Production Overview, Parts Analysis_
 
 ---
 
 ## 🛠️ Tech Stack
 
 - **Python** — pandas, numpy
-- **Jupyter Notebook** — exploratory cleaning and learning
-- **Power BI Desktop** — data model, DAX measures, dashboards _(coming soon)_
-
----
-
-## 📈 Dashboards
-
-_(Coming soon — Power BI dashboards will be added here with screenshots)_
+- **Jupyter Notebook** — exploratory analysis and learning
+- **Power BI Desktop** — data model, DAX measures, dashboards
 
 ---
 
 ## 👤 Author
 
 **Sumanth** — Data Analyst  
-Erie, PA | www.linkedin.com/in/soora44 |
+Erie, PA | [LinkedIn](#) | [Portfolio](#)
