@@ -8,9 +8,6 @@ env/
 *.ipynb
 .ipynb_checkpoints/
 
-# Power BI
-*.pbix
-*.pbit
 
 # OS junk
 .DS_Store
