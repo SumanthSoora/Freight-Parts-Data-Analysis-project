@@ -1,0 +1,11 @@
+product_id,product_name,product_category,unit_price,weight_kg
+FP-001,Locomotive Brake Assembly,Brake Systems,45000.0,520.0
+FP-002,Freight Engine Unit,Engine,185000.0,3200.0
+FP-003,Hydraulic Control Module,Hydraulics,28000.0,180.0
+FP-004,Electrical Control Panel,Electrical,15000.0,95.0
+FP-005,Suspension Frame Assembly,Structural,62000.0,1400.0
+FP-006,Cooling System Module,Cooling,22000.0,210.0
+FP-007,Fuel Injection Assembly,Fuel System,18500.0,145.0
+FP-008,Heavy Duty Axle Unit,Structural,54000.0,980.0
+FP-009,Traction Motor Assembly,Engine,95000.0,1750.0
+FP-010,Air Brake Control Unit,Brake Systems,31000.0,260.0

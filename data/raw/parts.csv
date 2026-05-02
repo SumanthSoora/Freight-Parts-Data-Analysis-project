@@ -1,0 +1,312 @@
+part_id,part_name,category,unit_cost,weight_kg,reorder_point,lead_time_days,preferred_supplier
+P0001,Piston Ring - V1,Engine Components,113.53,55.67,92,10,SUP-005
+P0002,Piston Ring - V2,Engine Components,666.78,50.82,169,5,SUP-019
+P0003,Piston Ring - V3,Engine Components,388.4,2.43,85,10,SUP-017
+P0004,Piston Ring - V4,Engine Components,547.79,42.18,213,23,SUP-023
+P0005,Piston Ring - V5,Engine Components,497.27,16.69,180,11,SUP-026
+P0006,Piston Ring - V6,Engine Components,784.33,56.96,70,25,SUP-014
+P0007,Piston Ring - V7,Engine Components,316.12,11.83,225,13,SUP-004
+P0008,Piston Ring - V8,Engine Components,97.08,7.43,246,14,SUP-020
+P0009,Piston Ring - V9,Engine Components,249.1,3.45,147,20,SUP-004
+P0010,Crankshaft Bearing - V1,Engine Components,84.74,22.13,190,22,SUP-029
+P0011,Crankshaft Bearing - V2,Engine Components,777.61,43.39,210,5,SUP-002
+P0012,Crankshaft Bearing - V3,Engine Components,600.22,58.03,50,10,SUP-028
+P0013,Crankshaft Bearing - V4,Engine Components,104.39,20.99,192,14,SUP-006
+P0014,Crankshaft Bearing - V5,Engine Components,342.61,15.87,98,25,SUP-030
+P0015,Crankshaft Bearing - V6,Engine Components,619.94,5.54,192,8,SUP-018
+P0016,Crankshaft Bearing - V7,Engine Components,660.28,12.42,127,11,SUP-030
+P0017,Camshaft - V1,Engine Components,624.02,16.63,113,4,SUP-008
+P0018,Camshaft - V2,Engine Components,742.3,60.42,132,11,SUP-003
+P0019,Camshaft - V3,Engine Components,201.72,70.73,213,13,SUP-007
+P0020,Camshaft - V4,Engine Components,595.06,29.79,194,17,SUP-005
+P0021,Camshaft - V5,Engine Components,249.42,18.65,173,20,SUP-009
+P0022,Camshaft - V6,Engine Components,676.11,32.25,179,15,SUP-012
+P0023,Camshaft - V7,Engine Components,209.1,74.82,160,18,SUP-003
+P0024,Camshaft - V8,Engine Components,683.87,64.61,69,23,SUP-006
+P0025,Camshaft - V9,Engine Components,715.99,31.78,46,15,SUP-013
+P0026,Valve Spring - V1,Engine Components,896.57,39.78,171,3,SUP-022
+P0027,Valve Spring - V2,Engine Components,652.84,51.19,167,11,SUP-025
+P0028,Valve Spring - V3,Engine Components,582.25,8.54,141,8,SUP-015
+P0029,Valve Spring - V4,Engine Components,17.87,54.21,214,11,SUP-017
+P0030,Valve Spring - V5,Engine Components,689.34,38.17,57,23,SUP-010
+P0031,Valve Spring - V6,Engine Components,759.88,38.17,80,7,SUP-012
+P0032,Valve Spring - V7,Engine Components,689.82,40.55,229,19,SUP-030
+P0033,Valve Spring - V8,Engine Components,15.51,24.45,34,6,SUP-030
+P0034,Cylinder Gasket - V1,Engine Components,792.67,62.41,108,10,SUP-002
+P0035,Cylinder Gasket - V2,Engine Components,228.17,42.64,50,5,SUP-024
+P0036,Cylinder Gasket - V3,Engine Components,445.1,5.38,224,20,SUP-025
+P0037,Cylinder Gasket - V4,Engine Components,126.3,49.55,170,8,SUP-009
+P0038,Cylinder Gasket - V5,Engine Components,481.99,45.57,84,20,SUP-025
+P0039,Cylinder Gasket - V6,Engine Components,660.99,15.25,109,15,SUP-022
+P0040,Timing Belt - V1,Engine Components,345.48,67.49,145,6,SUP-008
+P0041,Timing Belt - V2,Engine Components,213.86,25.49,180,20,SUP-008
+P0042,Timing Belt - V3,Engine Components,535.77,0.74,211,23,SUP-002
+P0043,Timing Belt - V4,Engine Components,217.61,67.93,250,13,SUP-003
+P0044,Timing Belt - V5,Engine Components,470.03,21.03,154,9,SUP-018
+P0045,Timing Belt - V6,Engine Components,132.1,70.18,176,21,SUP-016
+P0046,Timing Belt - V7,Engine Components,230.05,35.58,134,9,SUP-004
+P0047,Timing Belt - V8,Engine Components,100.78,32.44,138,16,SUP-015
+P0048,Timing Belt - V9,Engine Components,779.5,4.25,197,23,SUP-004
+P0049,Connecting Rod - V1,Engine Components,371.32,25.58,250,6,SUP-008
+P0050,Connecting Rod - V2,Engine Components,184.56,40.31,65,16,SUP-006
+P0051,Connecting Rod - V3,Engine Components,261.51,18.89,49,17,SUP-026
+P0052,Connecting Rod - V4,Engine Components,777.29,41.36,42,23,SUP-018
+P0053,Brake Rotor - V1,Brake Systems,872.56,69.49,247,10,SUP-006
+P0054,Brake Rotor - V2,Brake Systems,374.68,36.21,132,4,SUP-006
+P0055,Brake Rotor - V3,Brake Systems,350.39,73.9,97,17,SUP-010
+P0056,Brake Rotor - V4,Brake Systems,389.36,71.81,230,20,SUP-022
+P0057,Brake Caliper - V1,Brake Systems,445.7,14.4,85,4,SUP-019
+P0058,Brake Caliper - V2,Brake Systems,666.13,4.76,110,4,SUP-002
+P0059,Brake Caliper - V3,Brake Systems,532.0,37.81,248,19,SUP-006
+P0060,Brake Caliper - V4,Brake Systems,65.34,38.19,247,8,SUP-003
+P0061,Brake Caliper - V5,Brake Systems,541.61,50.71,90,15,SUP-004
+P0062,Brake Caliper - V6,Brake Systems,848.31,42.81,178,22,SUP-002
+P0063,Brake Caliper - V7,Brake Systems,563.15,31.56,179,21,SUP-017
+P0064,Brake Caliper - V8,Brake Systems,294.99,19.71,201,25,SUP-011
+P0065,Brake Caliper - V9,Brake Systems,226.24,29.8,201,23,SUP-010
+P0066,Brake Pad - V1,Brake Systems,294.82,56.44,48,3,SUP-015
+P0067,Brake Pad - V2,Brake Systems,564.73,42.31,55,5,SUP-018
+P0068,Brake Pad - V3,Brake Systems,203.64,20.04,119,5,SUP-029
+P0069,Brake Pad - V4,Brake Systems,231.19,21.52,142,20,SUP-023
+P0070,Brake Pad - V5,Brake Systems,282.73,73.79,236,23,SUP-017
+P0071,Brake Pad - V6,Brake Systems,21.92,61.32,106,24,SUP-004
+P0072,Brake Pad - V7,Brake Systems,845.95,10.24,59,6,SUP-024
+P0073,Master Cylinder - V1,Brake Systems,152.57,21.28,83,25,SUP-011
+P0074,Master Cylinder - V2,Brake Systems,195.18,47.64,97,19,SUP-016
+P0075,Master Cylinder - V3,Brake Systems,237.24,68.13,43,5,SUP-021
+P0076,Master Cylinder - V4,Brake Systems,389.86,20.9,30,13,SUP-025
+P0077,Master Cylinder - V5,Brake Systems,130.78,73.49,71,17,SUP-018
+P0078,Master Cylinder - V6,Brake Systems,639.52,42.16,58,5,SUP-029
+P0079,Master Cylinder - V7,Brake Systems,626.55,11.35,39,14,SUP-019
+P0080,Master Cylinder - V8,Brake Systems,503.98,32.35,40,12,SUP-012
+P0081,Brake Drum - V1,Brake Systems,810.55,15.91,93,24,SUP-004
+P0082,Brake Drum - V2,Brake Systems,328.01,42.08,134,22,SUP-024
+P0083,Brake Drum - V3,Brake Systems,151.78,69.76,71,8,SUP-029
+P0084,Brake Drum - V4,Brake Systems,379.88,13.62,115,16,SUP-026
+P0085,Brake Booster - V1,Brake Systems,779.7,60.84,98,8,SUP-026
+P0086,Brake Booster - V2,Brake Systems,635.63,28.81,39,18,SUP-008
+P0087,Brake Booster - V3,Brake Systems,191.62,68.9,119,12,SUP-027
+P0088,Brake Booster - V4,Brake Systems,718.88,17.22,36,24,SUP-007
+P0089,Brake Booster - V5,Brake Systems,367.64,21.04,47,11,SUP-012
+P0090,Brake Booster - V6,Brake Systems,582.71,30.1,245,20,SUP-011
+P0091,Brake Booster - V7,Brake Systems,846.22,8.83,96,8,SUP-019
+P0092,Brake Booster - V8,Brake Systems,866.84,20.06,57,22,SUP-014
+P0093,Brake Booster - V9,Brake Systems,320.93,59.02,141,22,SUP-017
+P0094,Voltage Sensor - V1,Electrical,355.9,43.33,95,4,SUP-023
+P0095,Voltage Sensor - V2,Electrical,400.91,39.09,236,20,SUP-022
+P0096,Voltage Sensor - V3,Electrical,651.7,55.7,201,9,SUP-012
+P0097,Voltage Sensor - V4,Electrical,396.7,71.18,114,22,SUP-011
+P0098,Control Relay - V1,Electrical,765.49,54.04,106,19,SUP-010
+P0099,Control Relay - V2,Electrical,605.2,24.6,208,12,SUP-018
+P0100,Control Relay - V3,Electrical,127.65,31.65,127,24,SUP-024
+P0101,Control Relay - V4,Electrical,813.98,46.24,107,15,SUP-018
+P0102,Control Relay - V5,Electrical,752.85,22.93,83,16,SUP-026
+P0103,Control Relay - V6,Electrical,528.29,49.17,149,17,SUP-015
+P0104,Control Relay - V7,Electrical,612.93,38.44,233,8,SUP-022
+P0105,Control Relay - V8,Electrical,90.04,38.76,192,22,SUP-011
+P0106,Control Relay - V9,Electrical,97.65,71.41,90,24,SUP-010
+P0107,Wiring Harness - V1,Electrical,728.81,11.22,41,10,SUP-016
+P0108,Wiring Harness - V2,Electrical,555.98,57.68,146,16,SUP-029
+P0109,Wiring Harness - V3,Electrical,572.34,14.74,208,15,SUP-016
+P0110,Wiring Harness - V4,Electrical,368.69,11.24,206,3,SUP-029
+P0111,Wiring Harness - V5,Electrical,679.6,57.8,57,16,SUP-008
+P0112,ECU Module - V1,Electrical,726.64,52.25,148,4,SUP-018
+P0113,ECU Module - V2,Electrical,235.54,63.66,146,7,SUP-026
+P0114,ECU Module - V3,Electrical,426.21,39.93,173,22,SUP-011
+P0115,ECU Module - V4,Electrical,855.79,66.88,186,19,SUP-014
+P0116,ECU Module - V5,Electrical,750.05,41.18,70,18,SUP-015
+P0117,Alternator - V1,Electrical,680.32,63.02,100,19,SUP-016
+P0118,Alternator - V2,Electrical,569.67,20.74,49,25,SUP-010
+P0119,Alternator - V3,Electrical,222.53,25.32,168,5,SUP-005
+P0120,Alternator - V4,Electrical,148.49,28.85,69,25,SUP-007
+P0121,Alternator - V5,Electrical,71.84,30.69,168,17,SUP-014
+P0122,Alternator - V6,Electrical,70.11,62.5,129,21,SUP-023
+P0123,Starter Motor - V1,Electrical,773.21,57.47,127,18,SUP-001
+P0124,Starter Motor - V2,Electrical,849.33,22.54,129,16,SUP-018
+P0125,Starter Motor - V3,Electrical,676.55,41.05,184,10,SUP-016
+P0126,Starter Motor - V4,Electrical,209.19,32.8,37,15,SUP-011
+P0127,Fuse Assembly - V1,Electrical,616.04,30.44,72,17,SUP-030
+P0128,Fuse Assembly - V2,Electrical,127.95,46.74,36,15,SUP-019
+P0129,Fuse Assembly - V3,Electrical,514.49,2.23,194,16,SUP-005
+P0130,Fuse Assembly - V4,Electrical,782.16,13.79,96,15,SUP-011
+P0131,Fuse Assembly - V5,Electrical,202.32,24.65,224,15,SUP-009
+P0132,Fuse Assembly - V6,Electrical,680.53,62.43,94,5,SUP-016
+P0133,Fuse Assembly - V7,Electrical,32.15,40.55,119,10,SUP-021
+P0134,Fuse Assembly - V8,Electrical,75.73,71.8,40,3,SUP-008
+P0135,Fuse Assembly - V9,Electrical,191.43,1.72,69,10,SUP-005
+P0136,Hydraulic Pump - V1,Hydraulics,607.47,42.38,85,17,SUP-023
+P0137,Hydraulic Pump - V2,Hydraulics,241.78,27.79,185,22,SUP-024
+P0138,Hydraulic Pump - V3,Hydraulics,650.75,58.38,71,12,SUP-004
+P0139,Hydraulic Pump - V4,Hydraulics,527.14,69.68,177,24,SUP-030
+P0140,Hydraulic Pump - V5,Hydraulics,862.98,29.87,213,9,SUP-003
+P0141,Hydraulic Pump - V6,Hydraulics,539.01,62.33,92,6,SUP-023
+P0142,Hydraulic Pump - V7,Hydraulics,698.65,63.8,183,6,SUP-026
+P0143,Hydraulic Cylinder - V1,Hydraulics,707.63,26.17,139,24,SUP-012
+P0144,Hydraulic Cylinder - V2,Hydraulics,76.03,48.64,33,16,SUP-027
+P0145,Hydraulic Cylinder - V3,Hydraulics,448.83,32.63,122,23,SUP-029
+P0146,Hydraulic Cylinder - V4,Hydraulics,748.41,53.11,141,8,SUP-024
+P0147,Hydraulic Cylinder - V5,Hydraulics,476.75,48.85,187,20,SUP-025
+P0148,Hydraulic Cylinder - V6,Hydraulics,442.9,32.78,217,21,SUP-009
+P0149,Hydraulic Cylinder - V7,Hydraulics,300.24,18.56,52,11,SUP-029
+P0150,Hydraulic Cylinder - V8,Hydraulics,413.96,56.34,175,22,SUP-022
+P0151,Pressure Valve - V1,Hydraulics,312.71,37.17,113,8,SUP-016
+P0152,Pressure Valve - V2,Hydraulics,202.73,59.88,117,11,SUP-029
+P0153,Pressure Valve - V3,Hydraulics,542.6,66.03,172,3,SUP-017
+P0154,Pressure Valve - V4,Hydraulics,854.04,6.6,214,16,SUP-016
+P0155,Pressure Valve - V5,Hydraulics,506.33,18.18,151,23,SUP-023
+P0156,Pressure Valve - V6,Hydraulics,449.38,59.51,53,12,SUP-008
+P0157,Pressure Valve - V7,Hydraulics,372.89,18.4,199,21,SUP-012
+P0158,Hydraulic Hose - V1,Hydraulics,504.82,25.91,220,20,SUP-011
+P0159,Hydraulic Hose - V2,Hydraulics,326.35,34.14,108,11,SUP-008
+P0160,Hydraulic Hose - V3,Hydraulics,121.78,14.61,60,20,SUP-025
+P0161,Hydraulic Hose - V4,Hydraulics,625.79,14.53,219,18,SUP-009
+P0162,Hydraulic Hose - V5,Hydraulics,656.26,73.25,164,22,SUP-010
+P0163,Hydraulic Hose - V6,Hydraulics,882.75,62.48,105,10,SUP-012
+P0164,Hydraulic Hose - V7,Hydraulics,173.81,1.26,166,7,SUP-009
+P0165,Fluid Reservoir - V1,Hydraulics,877.25,41.59,208,7,SUP-021
+P0166,Fluid Reservoir - V2,Hydraulics,783.59,36.92,33,21,SUP-010
+P0167,Fluid Reservoir - V3,Hydraulics,430.42,33.15,77,4,SUP-009
+P0168,Fluid Reservoir - V4,Hydraulics,847.84,35.93,240,5,SUP-013
+P0169,Flow Fitting - V1,Hydraulics,80.56,47.28,43,7,SUP-005
+P0170,Flow Fitting - V2,Hydraulics,732.86,71.19,51,10,SUP-004
+P0171,Flow Fitting - V3,Hydraulics,508.89,31.33,182,22,SUP-008
+P0172,Flow Fitting - V4,Hydraulics,701.49,28.65,143,12,SUP-028
+P0173,Flow Fitting - V5,Hydraulics,535.84,32.28,175,22,SUP-002
+P0174,Flow Fitting - V6,Hydraulics,554.52,55.56,225,9,SUP-021
+P0175,Flow Fitting - V7,Hydraulics,201.76,49.6,70,10,SUP-006
+P0176,Steel Frame - V1,Structural,81.43,0.4,145,25,SUP-020
+P0177,Steel Frame - V2,Structural,430.87,2.64,103,25,SUP-010
+P0178,Steel Frame - V3,Structural,637.14,34.16,205,10,SUP-030
+P0179,Steel Frame - V4,Structural,249.13,59.39,180,24,SUP-026
+P0180,Steel Frame - V5,Structural,841.3,32.0,169,10,SUP-021
+P0181,Steel Frame - V6,Structural,146.86,20.07,66,5,SUP-002
+P0182,Steel Frame - V7,Structural,161.84,23.21,221,21,SUP-030
+P0183,Steel Frame - V8,Structural,270.42,9.5,206,12,SUP-023
+P0184,Mounting Bracket - V1,Structural,849.27,37.64,156,17,SUP-003
+P0185,Mounting Bracket - V2,Structural,544.26,66.73,218,13,SUP-020
+P0186,Mounting Bracket - V3,Structural,236.58,7.03,202,21,SUP-019
+P0187,Mounting Bracket - V4,Structural,856.45,74.97,202,11,SUP-019
+P0188,Mounting Bracket - V5,Structural,50.61,56.77,150,19,SUP-021
+P0189,Mounting Bracket - V6,Structural,406.37,21.01,179,16,SUP-021
+P0190,Mounting Bracket - V7,Structural,735.61,72.69,150,14,SUP-014
+P0191,Support Beam - V1,Structural,299.14,8.02,71,13,SUP-014
+P0192,Support Beam - V2,Structural,628.9,21.76,132,20,SUP-002
+P0193,Support Beam - V3,Structural,417.52,23.73,112,6,SUP-025
+P0194,Support Beam - V4,Structural,372.69,38.69,30,24,SUP-028
+P0195,Support Beam - V5,Structural,495.2,31.11,78,19,SUP-012
+P0196,Support Beam - V6,Structural,566.03,37.49,143,4,SUP-007
+P0197,Side Panel - V1,Structural,501.06,69.59,142,25,SUP-016
+P0198,Side Panel - V2,Structural,122.46,72.99,185,10,SUP-023
+P0199,Side Panel - V3,Structural,155.16,41.4,171,16,SUP-003
+P0200,Side Panel - V4,Structural,213.86,63.14,59,17,SUP-004
+P0201,Side Panel - V5,Structural,588.22,11.72,213,12,SUP-017
+P0202,Side Panel - V6,Structural,639.29,31.28,153,18,SUP-008
+P0203,Gusset Plate - V1,Structural,502.87,28.89,183,19,SUP-024
+P0204,Gusset Plate - V2,Structural,793.2,64.83,100,16,SUP-011
+P0205,Gusset Plate - V3,Structural,841.81,38.18,240,3,SUP-010
+P0206,Gusset Plate - V4,Structural,657.56,62.84,178,24,SUP-016
+P0207,Gusset Plate - V5,Structural,780.76,33.6,153,14,SUP-011
+P0208,Gusset Plate - V6,Structural,503.45,40.85,146,13,SUP-028
+P0209,Gusset Plate - V7,Structural,181.96,52.37,176,15,SUP-008
+P0210,Bolt Assembly - V1,Structural,53.63,55.9,210,15,SUP-013
+P0211,Bolt Assembly - V2,Structural,889.75,59.47,196,7,SUP-016
+P0212,Bolt Assembly - V3,Structural,868.87,9.64,181,13,SUP-028
+P0213,Bolt Assembly - V4,Structural,103.82,63.41,55,19,SUP-030
+P0214,Bolt Assembly - V5,Structural,419.38,54.24,134,23,SUP-005
+P0215,Bolt Assembly - V6,Structural,81.22,58.66,97,13,SUP-020
+P0216,Bolt Assembly - V7,Structural,628.04,48.81,248,13,SUP-028
+P0217,Radiator Core - V1,Cooling System,775.52,28.62,111,23,SUP-023
+P0218,Radiator Core - V2,Cooling System,800.38,36.7,168,4,SUP-020
+P0219,Radiator Core - V3,Cooling System,75.55,47.41,103,10,SUP-024
+P0220,Radiator Core - V4,Cooling System,94.99,73.38,224,23,SUP-023
+P0221,Radiator Core - V5,Cooling System,787.23,33.39,207,12,SUP-029
+P0222,Radiator Core - V6,Cooling System,40.62,24.46,44,12,SUP-012
+P0223,Radiator Core - V7,Cooling System,346.73,11.09,165,16,SUP-019
+P0224,Radiator Core - V8,Cooling System,618.39,13.67,74,5,SUP-020
+P0225,Radiator Core - V9,Cooling System,785.69,46.55,91,18,SUP-030
+P0226,Coolant Pump - V1,Cooling System,141.66,34.69,95,17,SUP-009
+P0227,Coolant Pump - V2,Cooling System,605.15,67.44,149,12,SUP-022
+P0228,Coolant Pump - V3,Cooling System,498.74,5.72,118,21,SUP-010
+P0229,Coolant Pump - V4,Cooling System,580.46,31.94,94,17,SUP-028
+P0230,Coolant Pump - V5,Cooling System,282.38,74.95,248,18,SUP-004
+P0231,Coolant Pump - V6,Cooling System,224.93,42.98,177,12,SUP-023
+P0232,Coolant Pump - V7,Cooling System,276.28,73.35,198,15,SUP-009
+P0233,Coolant Pump - V8,Cooling System,22.17,64.91,229,4,SUP-030
+P0234,Thermostat - V1,Cooling System,674.48,62.5,103,10,SUP-020
+P0235,Thermostat - V2,Cooling System,724.71,16.58,78,22,SUP-009
+P0236,Thermostat - V3,Cooling System,614.82,54.13,198,24,SUP-027
+P0237,Thermostat - V4,Cooling System,136.05,7.47,190,23,SUP-002
+P0238,Thermostat - V5,Cooling System,288.41,33.17,178,14,SUP-024
+P0239,Thermostat - V6,Cooling System,131.3,68.24,113,16,SUP-006
+P0240,Thermostat - V7,Cooling System,192.7,59.03,123,19,SUP-017
+P0241,Thermostat - V8,Cooling System,823.44,62.32,95,18,SUP-026
+P0242,Fan Blade - V1,Cooling System,675.71,25.54,59,17,SUP-003
+P0243,Fan Blade - V2,Cooling System,139.57,72.49,250,24,SUP-024
+P0244,Fan Blade - V3,Cooling System,611.85,29.93,246,20,SUP-012
+P0245,Fan Blade - V4,Cooling System,94.92,29.71,97,20,SUP-004
+P0246,Fan Blade - V5,Cooling System,417.49,50.53,202,11,SUP-019
+P0247,Fan Blade - V6,Cooling System,352.21,47.96,125,6,SUP-022
+P0248,Cooling Hose - V1,Cooling System,432.26,46.54,173,13,SUP-030
+P0249,Cooling Hose - V2,Cooling System,554.92,48.64,192,17,SUP-030
+P0250,Cooling Hose - V3,Cooling System,635.45,48.76,59,7,SUP-002
+P0251,Cooling Hose - V4,Cooling System,852.44,22.97,156,6,SUP-004
+P0252,Cooling Hose - V5,Cooling System,222.8,40.41,129,17,SUP-012
+P0253,Shock Absorber - V1,Suspension,855.2,52.3,168,16,SUP-019
+P0254,Shock Absorber - V2,Suspension,671.91,11.76,136,23,SUP-004
+P0255,Shock Absorber - V3,Suspension,752.82,46.25,101,4,SUP-023
+P0256,Shock Absorber - V4,Suspension,342.92,33.37,90,14,SUP-004
+P0257,Shock Absorber - V5,Suspension,883.12,27.68,195,14,SUP-002
+P0258,Shock Absorber - V6,Suspension,367.35,14.4,61,17,SUP-003
+P0259,Shock Absorber - V7,Suspension,601.55,48.2,182,3,SUP-002
+P0260,Shock Absorber - V8,Suspension,711.31,18.42,62,21,SUP-007
+P0261,Shock Absorber - V9,Suspension,75.72,57.43,83,21,SUP-007
+P0262,Leaf Spring - V1,Suspension,305.78,11.24,182,3,SUP-009
+P0263,Leaf Spring - V2,Suspension,774.69,11.02,63,20,SUP-009
+P0264,Leaf Spring - V3,Suspension,721.68,8.42,36,7,SUP-001
+P0265,Leaf Spring - V4,Suspension,332.04,59.17,180,13,SUP-001
+P0266,Leaf Spring - V5,Suspension,169.21,4.12,219,16,SUP-017
+P0267,Stabilizer Bar - V1,Suspension,674.91,35.82,229,14,SUP-017
+P0268,Stabilizer Bar - V2,Suspension,540.39,34.01,86,22,SUP-002
+P0269,Stabilizer Bar - V3,Suspension,658.61,68.17,198,19,SUP-010
+P0270,Stabilizer Bar - V4,Suspension,420.37,72.31,45,18,SUP-028
+P0271,Suspension Arm - V1,Suspension,392.25,8.28,212,17,SUP-003
+P0272,Suspension Arm - V2,Suspension,810.85,24.29,67,5,SUP-005
+P0273,Suspension Arm - V3,Suspension,258.39,47.55,170,25,SUP-011
+P0274,Suspension Arm - V4,Suspension,352.1,44.88,105,17,SUP-017
+P0275,Suspension Arm - V5,Suspension,550.8,7.62,209,6,SUP-028
+P0276,Suspension Arm - V6,Suspension,594.42,65.85,171,9,SUP-014
+P0277,Suspension Arm - V7,Suspension,414.63,17.29,116,17,SUP-013
+P0278,Pivot Bushing - V1,Suspension,660.71,23.58,110,24,SUP-009
+P0279,Pivot Bushing - V2,Suspension,346.26,11.62,151,5,SUP-003
+P0280,Pivot Bushing - V3,Suspension,751.12,7.17,54,14,SUP-026
+P0281,Pivot Bushing - V4,Suspension,130.15,4.69,173,20,SUP-011
+P0282,Pivot Bushing - V5,Suspension,607.96,30.93,200,16,SUP-028
+P0283,Pivot Bushing - V6,Suspension,825.52,4.05,103,22,SUP-010
+P0284,Pivot Bushing - V7,Suspension,326.21,43.43,84,7,SUP-022
+P0285,Fuel Injector - V1,Fuel System,213.46,8.29,246,20,SUP-012
+P0286,Fuel Injector - V2,Fuel System,116.67,21.04,87,16,SUP-028
+P0287,Fuel Injector - V3,Fuel System,511.45,57.6,189,22,SUP-022
+P0288,Fuel Injector - V4,Fuel System,583.79,2.16,198,25,SUP-009
+P0289,Fuel Injector - V5,Fuel System,40.62,20.64,225,12,SUP-030
+P0290,Fuel Injector - V6,Fuel System,315.74,0.66,66,21,SUP-022
+P0291,Fuel Injector - V7,Fuel System,369.69,10.81,192,3,SUP-003
+P0292,Fuel Pump - V1,Fuel System,484.48,28.34,146,13,SUP-006
+P0293,Fuel Pump - V2,Fuel System,342.5,54.18,228,21,SUP-020
+P0294,Fuel Pump - V3,Fuel System,90.19,4.14,70,22,SUP-002
+P0295,Fuel Pump - V4,Fuel System,611.46,20.55,199,16,SUP-016
+P0296,Fuel Pump - V5,Fuel System,552.26,31.18,85,19,SUP-004
+P0297,Fuel Pump - V6,Fuel System,320.48,8.49,203,24,SUP-019
+P0298,Fuel Pump - V7,Fuel System,445.67,50.1,41,10,SUP-013
+P0299,Fuel Pump - V8,Fuel System,886.23,4.3,82,12,SUP-007
+P0300,Fuel Pump - V9,Fuel System,694.1,57.36,104,13,SUP-004
+P0301,Fuel Filter - V1,Fuel System,455.19,32.41,63,15,SUP-018
+P0302,Fuel Filter - V2,Fuel System,637.75,37.62,243,24,SUP-026
+P0303,Fuel Filter - V3,Fuel System,328.44,29.9,219,4,SUP-014
+P0304,Fuel Filter - V4,Fuel System,31.59,69.1,250,13,SUP-019
+P0305,Pressure Regulator - V1,Fuel System,522.46,53.27,136,12,SUP-004
+P0306,Pressure Regulator - V2,Fuel System,373.45,72.47,73,22,SUP-015
+P0307,Pressure Regulator - V3,Fuel System,751.34,69.0,52,16,SUP-028
+P0308,Pressure Regulator - V4,Fuel System,108.69,32.79,132,19,SUP-003
+P0309,Pressure Regulator - V5,Fuel System,365.25,23.41,116,10,SUP-011
+P0310,Pressure Regulator - V6,Fuel System,704.52,5.91,192,6,SUP-017
+P0311,Pressure Regulator - V7,Fuel System,466.31,67.96,119,14,SUP-024

@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+env/
+
+# Jupyter
+*.ipynb
+.ipynb_checkpoints/
+
+# Power BI
+*.pbix
+*.pbit
+
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
