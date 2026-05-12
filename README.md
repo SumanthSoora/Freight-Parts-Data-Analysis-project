@@ -49,13 +49,28 @@ Freight Manufacturing Parts Project/
 │       └── suppliers_clean.csv
 ├── Power bi Files/
 │   ├── Frieght Parts Analysis Power Bi Dashboard Screen Shots/
-│   │   └── Procurement Overview Dashboard.png
+│   │   ├── Procurement Overview Dashboard.png
+│   │   └── Inventory Analysis Dashboard.png
 │   └── Frieght Dasboard.pbix                     ← Power BI report file
 ├── python/
-│   ├── clean_data.py                             ← full ETL cleaning pipelin
+│   └── clean_data.py                             ← full ETL cleaning pipeline
 ├── .gitignore
 └── README.md
 ```
+
+---
+
+## 📸 Dashboard Preview
+
+### Procurement Overview
+
+![Procurement Overview](Power%20bi%20Files/Frieght%20Parts%20Analysis%20Power%20Bi%20Dashboard%20Screen%20Shots/Procurement%20Overview%20Dashboard.png)
+
+### Inventory Analysis
+
+![Inventory Analysis](Power%20bi%20Files/Frieght%20Parts%20Analysis%20Power%20Bi%20Dashboard%20Screen%20Shots/Inventory%20Analysis%20Dashboard.png)
+
+_More dashboard pages coming soon — Production Overview, Parts Analysis_
 
 ---
 
@@ -131,16 +146,6 @@ python clean_data.py
 | VAR / RETURN      | `Order Value Analysis`  | Multi-variable measure showing total and avg |
 | RANKX             | `Parts Order Rank`      | Ranks parts by total orders descending       |
 | RELATED           | `Part Category`         | Pulls category from parts table into orders  |
-
----
-
-## 📸 Dashboard Preview
-
-### Procurement Overview
-
-![Procurement Overview](Power%20bi%20Files/Frieght%20Parts%20Analysis%20Power%20Bi%20Dashboard%20Screen%20Shots/Procurement%20Overview%20Dashboard.png)
-
-_More dashboard pages coming soon — Inventory Analysis, Production Overview, Parts Analysis_
 
 ---
 
