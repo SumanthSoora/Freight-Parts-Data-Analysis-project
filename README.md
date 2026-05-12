@@ -160,4 +160,4 @@ python clean_data.py
 ## 👤 Author
 
 **Sumanth** — Data Analyst  
-Erie, PA | [LinkedIn](www.linkedin.com/in/soora44) | [Portfolio](#)
+Erie, PA | [LinkedIn](https://www.linkedin.com/in/soora44/) | [Portfolio](#)
